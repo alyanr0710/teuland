@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Teuland</title>
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .navbar {
+            background: transparent;
+            position: absolute;
+            width: 100%;
+            z-index: 10;
+            height: 70px; 
+        }
+        .navbar-brand {
+            font-family: 'arial';
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: black;
+    
+        }
+        .nav-link {
+            font-family: 'arial';
+            font-weight:lighter;
+            font-size: 1rem;
+            color: black;
+        }
+
+        .carousel-item img {
+            height: calc(100vh - 0px); 
+            object-fit: cover;
+        }
+
+        .carousel-caption h3{
+          color: black;
+          font-size: larger;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        .transparent-btn {
+        background-color: #f8f6f0;
+        border: 1px solid #f8f6f0; 
+        color: rgb(121, 115, 115); 
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: -35px;
+        }
+
+        .transparent-btn:hover {
+            background-color: rgba(255, 255, 255, 0.2); 
+        }
+
+    </style>
+
+<nav class="navbar navbar-expand-sm navbar-nav">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">TEULAND</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="content.html">MV&Content</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="discography.html">Discography</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://pbs.twimg.com/media/FZhXr8VaIAAXhZd?format=jpg&name=large" alt="treasure" class="d-block" style="width:100%;">
+
+            <div class="carousel-caption">
+                <button 
+                class="btn btn-primary transparent-btn" 
+                onclick="window.scrollBy(0, window.innerHeight)"><b><i>Welcome to TEULAND!</i></b></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<body>
+
+    <div class="container mt-4 mb-5 text-center" style="font-family: Arial">
+        <table class="table table-bordered mt-5">
+          <thead class="table-dark">
+              <tr>
+                  <th>About</th>
+                  <th>Treasure</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Debut</td>
+                  <td>August 7th, 2020</td>
+              </tr>
+              <tr>
+                  <td>Debut Song</td>
+                  <td>BOY</td>
+              </tr>
+              <tr>
+                  <td>Members (Now) </td>
+                  <td>10 members</td>
+              </tr>
+              <tr>
+                  <td>Members (Past)</td>
+                  <td>12 members</td>
+              </tr>
+              <tr>
+                  <td>Agency</td>
+                  <td>YG Entertainment</td>
+              </tr>
+              <tr>
+                  <td>Album (kr)</td>
+                  <td>2</td>
+              </tr>
+              <tr>
+                  <td>Leader</td>
+                  <td>Choi Hyunsuk & Park Jihoon</td>
+              </tr>
+              <tr>
+                  <td>Fandom</td>
+                  <td>Treasure Makers</td>
+              </tr>
+          </tbody>
+      </table>
+    </div>
+  
+    <div id="accordion">
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseOne">
+            <b>MORE ABOUT TREASURE</b>
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+            <p> Treasure is a boygroup from YG Entertainment. Debut on August 7th, 2020 with single Boy. This group formed through survival show YG Treasure Box.
+            Treasure has debut with 13 members. </p>
+            <p> On November 2022 Bang Yedam and Mashiho left the group. And now Treasure continue with 10 members ; Choi Hyunsuk, Park Jihoon, Yoshi, Kim Junkyu, Yoon jaehyuk, Asahi, Kim Doyoung, Haruto, Park Jeongwoo and So Junghwan. </p>
+          </div>
+        </div>
+      </div>
+
+        
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#collapseTwo">
+              <b> TREASURE MEMBERS </b>
+            </a>
+          </div>
+
+          <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+
+            <div class="d-flex justify-content-end mt-3">
+                <div class="card me-2" style="width:400px">
+                  <img class="card-img-top" src="https://i.pinimg.com/originals/64/b3/bc/64b3bc63ea59c54964825763acc0eb46.jpg" alt="hyunsuk">
+                  <div class="card-body">
+                    <h4 class="card-title">Choi Hyunsuk</h4>
+                    <p class="card-text">Birthday: April 21st, 1999</p>
+                    <a href="hyunsukprofil.html" class="btn btn-primary">See Profile</a>
+                  </div>
+                </div>
+            
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/40/5e/97/405e970564add63f690ebd07555a644b.jpg" alt="jihoon">
+                    <div class="card-body">
+                      <h4 class="card-title">Park Jihoon</h4>
+                      <p class="card-text">Birthday: March 14th, 2000</p>
+                      <a href="jihoonprofil.html" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>    
+            
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/72/6a/6f/726a6f4ae969051338208c05b103d66d.jpg" alt="yoshi">
+                    <div class="card-body">
+                    <h4 class="card-title">Kanemoto Yoshinori</h4>
+                    <p class="card-text">Birthday: May 15th, 2000</p>
+                    <a href="yoshiprofil.html" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+            
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/cc/b7/4c/ccb74c709a4000f27392a28f9d0546a6.jpg" alt="junkyu">
+                    <div class="card-body">
+                      <h4 class="card-title">Kim Junkyu</h4>
+                      <p class="card-text">Birthday: September 9th, 2000</p>
+                      <a href="junkyuprofil.html" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>  
+        
+            <div class="card" style="width:400px">
+                 <img class="card-img-top" src="https://i.pinimg.com/originals/29/82/47/298247689c57d8a7eba2dcaedcdc6bae.jpg" alt="jaehyuk">
+                    <div class="card-body">
+                        <h4 class="card-title">Yoon Jaehyuk</h4>
+                        <p class="card-text">Birthday: July 23rd, 2001</p>
+                        <a href="jaehyukprofil.html" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div> 
+          </div>
+
+          <div class="d-flex justify-content-end mt-3 mb-3">
+          <div class="card me-2" style="width:400px">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/3e/fa/2e/3efa2ebc7481e80f37616ecf76161b2c.jpg" alt="asahi">
+                <div class="card-body">
+                    <h4 class="card-title">Hamada Asahi</h4>
+                    <p class="card-text">Birthday: August 20th, 2001</p>
+                    <a href="asahiprofil.html" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+        
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/4b/ac/dd/4bacdd84ed75ae3d152bf0cf379424e8.jpg" alt="doyoung">
+                   <div class="card-body">
+                       <h4 class="card-title">Kim Doyoung</h4>
+                       <p class="card-text">Birthday: December 4th, 2003</p>
+                       <a href="doyoungprofil.html" class="btn btn-primary">See Profile</a>
+                   </div>
+               </div> 
+    
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/47/f0/02/47f002248a179964d42929c71edccc79.jpg" alt="haruto">
+                <div class="card-body">
+                    <h4 class="card-title">Watanabe Haruto</h4>
+                    <p class="card-text">Birthday: April 5th, 2004</p>
+                    <a href="harutoprofil.html" class="btn btn-primary">See Profile</a>
+                </div>
+            </div> 
+
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/b4/26/ca/b426ca4e3c3d4c49d1bdcd228906c42e.jpg" alt="jeongwoo">
+                <div class="card-body">
+                    <h4 class="card-title">Park Jeongwoo</h4>
+                    <p class="card-text">Birthday: September 28th, 2004</p>
+                    <a href="jeongwooprofil.html" class="btn btn-primary">See Profile</a>
+                </div>
+            </div> 
+
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/24/4b/41/244b4195d79aac51269f858ce13e7189.jpg" alt="junghwan">
+                <div class="card-body">
+                    <h4 class="card-title">So Junghwan</h4>
+                    <p class="card-text">Birthday: February 18th, 2005</p>
+                    <a href="junghwanprofil.html" class="btn btn-primary">See Profile</a>
+                </div>
+            </div> 
+
+    </div>
+</div>
+        </div>
+      
+    
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+              <b>GUIDE TO BECOMING A TREASURE MAKERS (TEUME)</b>
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                <li>Watch Treasure Maps</li>
+                <li>Watch YG Treasure Box (optional)</li>
+                <li>Follow Treasure Instagram, X and Tiktok </li>
+                <li>Watch the MV's</li>
+                <li>Listening Treasure songs on Spotify / YTMusic / AppleMusic</li>
+                <li>Download Weverse for members update (optional) </li>
+                <li>Choose your bias or fav</li>
+                <li>Looking for teume mutuals on social media</li>
+                <li>Be patient for Treasure's comeback</li>
+                <li>Welcome to our Family</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    
+
+
+</body>
+</html>
